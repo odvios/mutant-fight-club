@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/odvios/mutant-fight-club.git"
   },
-  "author": "",
+  "contributors": [
+    "Odvios",
+    "Red Crow"
+  ],
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/odvios/mutant-fight-club/issues"
