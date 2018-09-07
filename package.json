@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/odvios/mutant-fight-club/issues"
   },
-  "homepage": "https://github.com/odvios/mutant-fight-club#readme"
+  "homepage": "https://github.com/odvios/mutant-fight-club#readme",
+  "dependencies": {
+    "eslint-plugin-fp": "^2.3.0"
+  },
+  "eslintConfig": {
+    "plugins": [
+      "fp"
+    ],
+    "extends": "plugin:fp/recommended"
+  }
 }
