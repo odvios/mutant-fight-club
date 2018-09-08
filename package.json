@@ -18,6 +18,9 @@
   "homepage": "https://github.com/odvios/mutant-fight-club#readme",
   "dependencies": {},
   "eslintConfig": {
+    "env": {
+      "es6": true
+    },
     "plugins": [
       "fp"
     ],
