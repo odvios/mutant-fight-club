@@ -16,13 +16,15 @@
     "url": "https://github.com/odvios/mutant-fight-club/issues"
   },
   "homepage": "https://github.com/odvios/mutant-fight-club#readme",
-  "dependencies": {
-    "eslint-plugin-fp": "^2.3.0"
-  },
+  "dependencies": {},
   "eslintConfig": {
     "plugins": [
       "fp"
     ],
     "extends": "plugin:fp/recommended"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-plugin-fp": "^2.3.0"
   }
 }
