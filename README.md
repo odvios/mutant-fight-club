@@ -7,3 +7,6 @@ To use webpack-dev-server, run ```yarn dev```.
 
 ### Building the JS Bundle
 To build the js bundle, run ```yarn build```.
+
+### Running the Unit Test Suite
+To run the jest tests, run ```yarn test```.
