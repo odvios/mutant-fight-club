@@ -2,8 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/testthis.js',
-  devtool: 'cheap-eval-source-map',
+  entry: './src/testthis.ts',
+  devtool: 'cheap-source-map',
   devServer: {
     contentBase: './dist',
     port: 9090
@@ -11,9 +11,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
-        exclude: [/node_modules/, path.resolve('./src/testthis.js')],
-        loader: 'eslint-loader'
+        test: /\.tsx?$/,
+        exclude: /node_modules/,
+        loader: ['ts-loader', 'tslint-loader']
       }
     ]
   },

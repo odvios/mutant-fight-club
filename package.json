@@ -19,20 +19,13 @@
   },
   "homepage": "https://github.com/odvios/mutant-fight-club#readme",
   "dependencies": {},
-  "eslintConfig": {
-    "env": {
-      "es6": true
-    },
-    "plugins": [
-      "fp"
-    ],
-    "extends": "plugin:fp/recommended"
-  },
   "devDependencies": {
-    "eslint": "^5.5.0",
-    "eslint-loader": "^2.1.0",
-    "eslint-plugin-fp": "^2.3.0",
     "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^5.1.0",
+    "tslint": "^5.11.0",
+    "tslint-functional-preset": "^1.5.0",
+    "tslint-loader": "^3.6.0",
+    "typescript": "^3.0.3",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.8"

@@ -1,0 +1,9 @@
+{
+  "extends": ["tslint:recommended", "tslint-functional-preset"],
+  "rules": {
+    "semicolon": [true, "always"],
+    "quotemark": [true, "single"],
+    "indent": [true, "spaces", 2],
+    "trailing-comma": [true, {"multiline": "never", "singleline": "never"}]
+  }
+}
